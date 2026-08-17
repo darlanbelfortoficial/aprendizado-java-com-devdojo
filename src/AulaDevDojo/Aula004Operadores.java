@@ -4,23 +4,16 @@ import java.util.Scanner;
 
 public class Aula004Operadores {
     public static void main(String[] args) {
-        // Operadores (+ - / *)
-//        Scanner entrada = new Scanner(System.in);
 
-//        System.out.println("Informe um numero");
-//        int numero1 = entrada.nextInt();
-//        System.out.println("Informe outro numero");
-//        int numero2 = entrada.nextInt();
-//
-//        System.out.println("Subtração: "+(numero1-numero2));
-//        System.out.println("Multiplicação: "+(numero1*numero2));
-//        System.out.println("Adição: "+(numero1+numero2));
-//        System.out.println("Divisão: "+(numero1/numero2));
+        int numero1 = 10;
+        int numero2 = 20;
+
+        System.out.println("Resultado: "+(numero1 + numero2));
 
         //Operador de Resto %
 //
-//        int resto = 23 % 2;
-//        System.out.println("Resto da divisão "+resto);
+        int resto = 23 % 2;
+        System.out.println("Resto da divisão "+resto);
 
         // Operador Lógica que retorna valores Booleanos = TRUE OU FALSE
         // (< >) -> Menor ou Maior (<= >=) -> Menor ou Igual, Maior ou Igual (=!) -> Dirente (==) -> Operador de Comparação
