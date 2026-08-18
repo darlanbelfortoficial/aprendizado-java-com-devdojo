@@ -45,5 +45,51 @@ public class Aula004OperadoresLogicos {
         System.out.println("isDentroDaLeiMaiorQueTrinta --> "+isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta --> "+isDentroDaLeiMenorQueTrinta);
 
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlayStation = 5000F;
+        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlayStation || valorTotalContaPoupanca > valorPlayStation;
+        System.out.println("isPlaystationCincoCompravel --> "+isPlaystationCincoCompravel);
+
+        //Operadores de Atribuição ( =, +=, -=, *=, /= and %= )
+
+        double bonus = 1800;
+        bonus = bonus + 100;
+//            ^
+//            |   Formas de Atribuir iguais porém com menos código
+//            |   Melhora a organização
+//            v
+        bonus += 1000;
+        bonus -= 500; // Comente cada um e execute para ver o funcionamento
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println("Bonus: "+bonus);
+
+        // (++ --)
+
+        int contador = 0;
+        contador += 1; // Contador Receber contador Mais 1
+       //     ^
+//            |   Formas de abreviar a primeira parte de cima
+//            |
+//            v
+        contador ++;
+
+        contador -= 1;
+//            ^
+//            |   Formas de abreviar a primeira parte de cima
+//            |
+//            v
+        contador --;
+        ++contador;
+        --contador;
+
+        System.out.println("Contador: "+contador);
+
+        int contador2 = 0;
+//                                           |
+        System.out.println(contador2++); //  v Use breakpoint e debug para entender
+        System.out.println(contador2);   //  Imprime o resultado do primeiro com a adição de mais 1
     }
 }
