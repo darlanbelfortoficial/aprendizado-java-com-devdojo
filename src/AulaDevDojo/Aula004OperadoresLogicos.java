@@ -1,8 +1,6 @@
 package AulaDevDojo;
 
-import java.util.Scanner;
-
-public class Aula004Operadores {
+public class Aula004OperadoresLogicos {
     public static void main(String[] args) {
 
         int numero1 = 10;
@@ -35,5 +33,17 @@ public class Aula004Operadores {
         System.out.println("Dez é diferente de 10: "+isDezDiferenteDeDez);
         System.out.println("Dez 10 comparado com 20: "+isDezComparadoCom10);
         System.out.println("Dez 10 comparado com 20: "+isDezComparadoCom);
+
+        //Operador Lógico (and = &&) (or = ||) (logical not = !)
+
+        int idade = 29;
+        float salario = 3555F;
+
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+
+        System.out.println("isDentroDaLeiMaiorQueTrinta --> "+isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrinta --> "+isDentroDaLeiMenorQueTrinta);
+
     }
 }
